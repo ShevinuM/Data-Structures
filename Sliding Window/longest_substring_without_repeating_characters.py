@@ -24,3 +24,22 @@ def lengthOfLongestSubstring(s):
                 temp_index=index
 
         return max_length
+
+
+# Time-Complexity O(n). Sliding window approach
+def lengthOfLongestSubstringSlidingWindow(s):
+    """
+    :type s: str
+    :rtype: int
+    """
+    substring = set()
+    left = 0
+    max = 0
+    for character in s:
+        while character in substring:
+            substring.remove(s[left])
+            left+=1
+        substring.add(character)
+        if len(substring) > max:
+            max = len(substring)
+    return max

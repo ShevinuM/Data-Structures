@@ -8,4 +8,10 @@ print("The length of the substring 'bbbbb' is -> " + str(lengthOfLongestSubstrin
 print("The length of the substring 'pwwkew' is -> " + str(lengthOfLongestSubstring("pwwkew")))
 print()
 
-
+# Test for sliding window approach
+print("Test for O(n) time-complexity sliding window approach")
+print("_____________________________________________________")
+print("The length of the substring 'abcabcbb' is -> " + str(lengthOfLongestSubstringSlidingWindow("abcabcbb")))
+print("The length of the substring 'bbbbb' is -> " + str(lengthOfLongestSubstringSlidingWindow("bbbbb")))
+print("The length of the substring 'pwwkew' is -> " + str(lengthOfLongestSubstringSlidingWindow("pwwkew")))
+print()
