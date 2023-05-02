@@ -1,4 +1,4 @@
-# brute-force approach. This was my initial approach with a time complexity of O(n^2)
+# brute-force approach. This was my initial approach with a time complexity of O(n^3)
 def longestPalindromeBruteForce(s: str) -> str:
         reversed_string = s[::-1] # reverse the string
         max = 0
@@ -13,6 +13,7 @@ def longestPalindromeBruteForce(s: str) -> str:
                         longest_substring = subsubstring
         return longest_substring
 
+# This was my second approach with an overall time complexity of O(n^2)
 def longestPalindrome(self, s: str) -> str:
     left, right = 1, 1
     substring =""
