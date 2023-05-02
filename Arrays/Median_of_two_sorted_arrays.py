@@ -39,6 +39,7 @@ def findMedianSortedArrays(nums1, nums2):
                 # if the length of the combined array is odd,
                 # then, median = min(minRightPartitionA, minRightPartitionB)
                 return min(minRightPartitionA, minRightPartitionB)
+        # Binary search algorithm
         elif maxLeftPartitionA > minRightPartitionB:
             right = partitionA - 1
         else:
