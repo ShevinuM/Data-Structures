@@ -1,7 +1,5 @@
 class Solution:
-    # This was my initial approach to this problem and it's almost a brute-force
-    # approach which checks all possibilities
-    def myAtoi(self, s: str) -> int:
+    def myAtoi(s: str) -> int:
         signs = "+"
         negative_count = 0
         new_string = ""
@@ -32,4 +30,14 @@ class Solution:
             return -(2**31) if num > (2**31) else -num
 
 class Test:
-    print(Solution.myAtoi("-91283472332"))
+    print()
+    print("Test for String to Integer (atoi) - LeetCode 8")
+    print("______________________________________________")
+    print("s = '42', expected = 42, output = {}".format(Solution.myAtoi('42')))
+    print()
+    print("s = '   -42', expected = -42, output = {}".format(Solution.myAtoi('   -42')))
+    print()
+    print("s = '4193 with words', expected = 4193, output = {}".format(Solution.myAtoi('4193 with words')))
+    print()
+
+Test()
