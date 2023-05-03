@@ -1,7 +1,8 @@
 import math
 
 class Solution:
-    # This was my initial solution to this problem using strings
+    # This was my initial solution to this problem using strings. I realized this solution is probably wrong because we need
+    # to assume that the computer only stores 32 bit integers
     def reverse1(x: int) -> int:
         if x < 0:
             negative = True
