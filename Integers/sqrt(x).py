@@ -29,7 +29,7 @@ def mySqrt(self, x: int) -> int:
     l, r = 0, x
 
     while True:
-        mid = (l + r)/2
+        mid = l + ((r - l)/2)
         if mid * mid > x:
             r = mid
         elif mid * mid < x:
