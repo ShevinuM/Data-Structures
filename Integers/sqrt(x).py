@@ -34,7 +34,7 @@ def mySqrt(self, x: int) -> int:
             r = mid
         elif mid * mid < x:
             l = mid
-            if math.floor(mid)*math.floor(mid) < x < math.ceil(mid)*math.ceil(mid):
+            if (math.floor(mid)*math.floor(mid)) < x < math.ceil(mid)*math.ceil(mid):
                 return math.floor(mid)
         elif mid * mid == x:
             return int(mid)
