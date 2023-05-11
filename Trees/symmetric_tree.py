@@ -3,7 +3,7 @@ Given the root of a binary tree, check whether it is a mirror of itself (i.e., s
 '''
 
 # Recursive Solution to this problem
-def isSymmetric(root):
+def isSymmetric1(root):
     def dfs(left, right):
         if not left and not right:
             return True
