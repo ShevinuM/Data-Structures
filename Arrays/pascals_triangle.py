@@ -15,3 +15,9 @@ def generate(numRows):
                 value = output_rows[row-1][index-1] + output_rows[row-1][index]
             output_rows[row].append(value)
     return output_rows
+
+def test(numRows):
+    print("Number of Rows: {0}, Output: {1}".format(numRows, generate(numRows)))
+
+test(5)
+test(1)
