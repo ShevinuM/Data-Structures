@@ -22,3 +22,12 @@ class Solution1:
             else:
                 res[count] = str(count+1)
         return res
+
+    def test(self, n: int):
+        print("Input n: {0:2}, Output: {1}".format(n, self.fizzBuzz(n)))
+
+sol = Solution1()
+sol.test(3)
+sol.test(5)
+sol.test(15)
+sol.test(1)
