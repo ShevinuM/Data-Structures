@@ -4,7 +4,7 @@ Given an integer array nums, move all 0's to the end of it while maintaining the
 Note that you must do this in-place without making a copy of the array.
 '''
 # This solution has a time complexity of O(n^2) and a space complexity of O(1)
-class Solution:
+class Solution1:
     def moveZeroes(self, nums) -> None:
         """
         Do not return anything, modify nums in-place instead.
@@ -18,3 +18,19 @@ class Solution:
                 nums[-1] = 0
             else:
                 count+=1
+
+# This solution has a time complexity of O(n) and a space complexity of O(1)
+class Solution2:
+    def moveZeroes(self, nums) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        index = 0
+        for num in nums:
+            if num != 0:
+                nums[index] = num
+                index+=1
+        zeros = len(nums)-index
+        while zeros > 0: 
+            nums[-zeros] = 0
+            zeros-=1
