@@ -2,6 +2,10 @@
 
 Welcome to my repository! This is where I track my ongoing journey of deepening my understanding of data structures and algorithms. This subject, which I came across in college, continues to fascinate me with its breadth and depth. I'm intigued by it's complexity and find problem solving fascinating
 
+## How The Repository Is Organized
+
+This repository is organized by particular data structures / Algorithms, so all problems I come across related to a specific data structure / algorithm goes inside it. I'm pretty sure there's plenty of algorithms / data structures I'm not yet aware of so I occassionally add new folders whenever I come across a new concept.
+
 ## Origin Story
 
 During my college years, I was introduced to various data structures. But like any vast topic, I found it challenging to retain everything. I knew I needed to find a practical way to solidify these concepts, and thus, my coding journey outside of classroom learning began. I started with implementing basic data structures, such as Linked Lists, from scratch.
@@ -12,7 +16,7 @@ As I delved more into the world of coding, I discovered HackerRank - a platform 
 
 ## Continuous Learning and Updates
 
-This repository is more than just a collection of problems and solutions; it's a testament to my passion for learning and my commitment to enhancing my coding skills.
+This repository is more than just a collection of problems and solutions; it's a testament to my passion for learning and my commitment to enhancing my coding skills. I usually randomly do leetcode problems and solve it and whenever I come across something which I cannot solve, I look at other solutions and most of the time it's related to a concept I didn't know before. For example, I didn't know backtracking or the sliding window approach prior to attempting leetcode. Afterwards, I learn about that concept through YouTube videos. 
 
 While many problems here are from LeetCode, I also like to participate in coding competitions and events. This repository is fairly new so none of the solutions to my past problems I've solved aren't here but from here on I'll make sure to update this repository with relevant learnings and insights. I'm particularly excited about the upcoming Advent of Code in December!
 
