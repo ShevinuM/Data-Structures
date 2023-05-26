@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-Welcome to my repository! This is where I track my ongoing journey of deepening my understanding of data structures and algorithms. This subject, which I came across in college, continues to fascinate me with its breadth and depth. I'm intigued by it's complexity and find problem solving fascinating
+Welcome to my repository! This is where I track my ongoing journey to deepen my understanding of data structures and algorithms. I came across this area of CS in college and it continues to fascinate me with its breadth and depth. I like how compelx certain problems can get and I love problem solving and math in general.
 
 ## How The Repository Is Organized
 
@@ -18,7 +18,7 @@ As I delved more into the world of coding, I discovered HackerRank - a platform 
 
 This repository is more than just a collection of problems and solutions; it's a testament to my passion for learning and my commitment to enhancing my coding skills. I usually randomly do leetcode problems and solve it and whenever I come across something which I cannot solve, I look at other solutions and most of the time it's related to a concept I didn't know before. For example, I didn't know backtracking or the sliding window approach prior to attempting leetcode. Afterwards, I learn about that concept through YouTube videos. 
 
-While many problems here are from LeetCode, I also like to participate in coding competitions and events. This repository is fairly new so none of the solutions to my past problems I've solved aren't here but from here on I'll make sure to update this repository with relevant learnings and insights. I'm particularly excited about the upcoming Advent of Code in December!
+While many problems here are from LeetCode, I also like to participate in coding competitions and events. This repository is fairly new so none of the solutions to my past problems I've solved aren't here, but from here on I'll make sure to update this repository with relevant learnings and insights. I'm particularly excited about the upcoming Advent of Code in December!
 
 ## Going Forward
 
