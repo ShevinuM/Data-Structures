@@ -24,6 +24,8 @@ The output will be the entire list after calling your function.
 #         self.val = x
 #         self.next = None
 
+# I think the question is very poorly written because what it checks is if a node value doesn't exists. So we can just change the 
+# value of the node to the value of the next. So is this even deleting???
 class Solution:
     def deleteNode(self, node):
         """
