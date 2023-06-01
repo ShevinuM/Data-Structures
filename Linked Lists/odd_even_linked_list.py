@@ -14,19 +14,23 @@ You must solve the problem in O(1) extra space complexity and O(n) time complexi
 #         self.val = val
 #         self.next = next
 class Solution:
-    def oddEvenList(self, head):
-        if not head or not head.next:
-            return head
+    '''
+    For this solution we use two pointers, an even pointer and an odd pointer. Both are shifted simultaneously
+    updating the next pointers of each even and odd node to the correct next even or odd node. This results in 
+    forming two seperate linked lists. The head of the even list is joined to the end of the odd list and the 
+    head is returned
+    '''
+    def oddEvenList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+        if not head or not head.next: return head
     
         curr_odd, curr_even, head_even = head, head.next, head.next
 
-        while (curr_odd.next and curr_odd.next.next) or (curr_even.next and curr_even.next.next):
-            if curr_odd.next and curr_odd.next.next:
-                curr_odd.next = curr_odd.next.next
-                curr_odd = curr_odd.next
-            if curr_even.next and curr_even.next.next:
-                curr_even.next = curr_even.next.next
-                curr_even = curr_even.next
-        curr_even.next = None
+        while curr_odd.next and curr_odd.next.next:
+            curr_odd.next = curr_odd.next.next
+            curr_odd = curr_odd.next
+            curr_even.next = curr_even.next.next
+            curr_even = curr_even.next
+
         curr_odd.next = head_even
+        if curr_even: curr_even.next = None
         return head
