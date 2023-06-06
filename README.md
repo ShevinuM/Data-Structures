@@ -2,6 +2,10 @@
 
 Welcome to my repository! This is where I track my ongoing journey to deepen my understanding of data structures and algorithms. I came across this area of CS in college and it continues to fascinate me with its breadth and depth. I like how compelx certain problems can get and I love problem solving and math in general.
 
+## What Languages Have I Used
+
+I am proficient in both Python and Java, however with experience in developing applications using Python and Java both, Java's strict Object Oriented nature intrigued me a lot as most applications I make resemble real life object which closely aligns the code with the way I think. Another few reasons, I prefer Java is it's strict type checking and it's available libraries particulary Spring Boot which I prefer over Python's Flask. I initially started doing DSA problems with Python since it was easier for me to code but I'm slowly transitioning to Java since my projects will most incorporate Java as well.
+
 ## How The Repository Is Organized
 
 This repository is organized by particular data structures / Algorithms, so all problems I come across related to a specific data structure / algorithm goes inside it. I'm pretty sure there's plenty of algorithms / data structures I'm not yet aware of so I occassionally add new folders whenever I come across a new concept.
