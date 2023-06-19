@@ -1,6 +1,6 @@
 # Data Structures and Algorithms
 
-Welcome to my repository! This is where I track my ongoing journey to deepen my understanding of data structures and algorithms. I came across this area of CS in college and it continues to fascinate me with its breadth and depth. I like how complex certain problems can get and I love problem solving and math in general.
+Welcome to my repository consisting of over 85+ DSA problems! This is where I track my ongoing journey to deepen my understanding of data structures and algorithms. I came across this area of CS in college and it continues to fascinate me with its breadth and depth. I like how complex certain problems can get and I love problem solving and math in general.
 
 ## What Languages Have I Used
 
