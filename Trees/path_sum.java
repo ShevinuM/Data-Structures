@@ -51,9 +51,7 @@ class Solution {
     public boolean hasPathSum(TreeNode root, int targetSum) {
         if (root == null) { return false; }
         int sum = targetSum - root.val;
-        if (sum == 0 && root.left == null && root.right == null) {
-            return true;
-        }
+        if (sum == 0 && root.left == null && root.right == null) { return true; }
         return hasPathSum(root.right, sum) || hasPathSum(root.left, sum);
     }
 }
