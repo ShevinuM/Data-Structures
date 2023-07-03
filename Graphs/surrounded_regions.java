@@ -26,9 +26,7 @@ n == board[i].length
 board[i][j] is 'X' or 'O'.
 */
 class Solution {
-    /*
-     * 
-     */
+
     public void solve(char[][] board) {
         /*
          * I go through the board and find all the O's that are on the border.
