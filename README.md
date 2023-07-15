@@ -4,7 +4,7 @@ Welcome to my repository consisting of over 90+ DSA problems! This is where I tr
 
 ## What Languages Have I Used
 
-I am proficient in both Python and Java, however with experience in developing applications using Python and Java both, Java's strict Object Oriented nature intrigued me a lot as most applications I make resemble real-life objects which closely aligns the code with the way I think. Another few reasons, I prefer Java is its strict type checking and its available libraries particularly Spring Boot. I initially started doing DSA problems with Python since it was easier for me to code but I'm slowly transitioning to Java since my projects will mostly incorporate Java.
+I am proficient in both Python and Java, however with experience in developing applications using Python and Java both, Java's strict Object Oriented nature intrigued me a lot as most applications I make resemble real-life objects which closely aligns the code with the way I think. Another few reasons, I prefer Java is its strict type checking and its available libraries, particularly Spring. I initially started doing DSA problems with Python since it was easier for me to code but I'm slowly transitioning to Java since my projects will mostly incorporate Java.
 
 ## How The Repository Is Organized
 
@@ -16,8 +16,7 @@ During my college years, I was introduced to various data structures. But like a
 
 ### Discovering HackerRank and LeetCode
 
-As I went deeper into coding, I discovered HackerRank - a platform full of interesting coding problems. I used hacker rank to prepare for my school exams as I found studying DSA to be a bit boring and putting everything into practice would be much more interesting. My knowledge and understanding started to broaden, and soon, I stumbled across more advanced concepts through various YouTube tutorials. This led me to LeetCode. I found this platform extremely valuable since the questions covered almost any data structure/algorithm and they had plenty of questions to do. Back when I started doing leetcode problems, I was clueless but now I understand so much about how data structures work. Initially, recursion was pretty confusing for me particularly dfs and 
-bfs algorithms, but now I'm pretty fluent at it.
+As I went deeper into coding, I discovered HackerRank. I used hacker rank to prepare for my school exams as I found studying DSA to be a bit boring and putting everything into practice would be much more interesting. My knowledge and understanding started to broaden, and soon, I stumbled across more advanced concepts through various YouTube tutorials. This led me to LeetCode. I found this platform extremely valuable since the questions covered almost any data structure/algorithm and they had plenty of questions to do. Back when I started doing leetcode problems, I was clueless but now I understand so much about how data structures work.
 
 ### Going Forward
 
