@@ -38,17 +38,13 @@ class Solution {
         The idea behind this solution is to determine at each step whether it would be cheaper to arrive there from the immediately preceding step or the one before that, and use this strategy to build up the minimum cost to reach every step, up to the top of the floor.
     **/
 
+    class Solution {
     public int minCostClimbingStairs(int[] cost) {
         int[] dp = new int[cost.length+1];
         for (int index = 0; index < dp.length; index++) {
-            if (index == 0) { 
-                dp[0] = 0; 
-            } else if (index == 1) {
-                dp[1] = 0; 
-            } else {
-                dp[index] = Math.min(dp[index-1] + cost[index-1], dp[index-2] + cost[index-2]);
-            }
+            if (index > 1) { dp[index] = Math.min(dp[index-1] + cost[index-1], dp[index-2] + cost[index-2]); }
         }
         return dp[dp.length - 1];
     }
+}
 }
