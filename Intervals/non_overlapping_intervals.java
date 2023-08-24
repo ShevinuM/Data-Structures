@@ -34,7 +34,7 @@ class Solution {
          * least risk
          * of overlapping. Hence we get the minimum intervals removed.
          */
-        Arrays.sort(intervals, (o1, o2) -> Integer.compare(o1[0], o2[0]));
+        Arrays.sort(intervals, (o1, o2) -> Integer.compare(o1[0], o2[0]));/
         int res = 0;
         int prev_end = intervals[0][1];
 
