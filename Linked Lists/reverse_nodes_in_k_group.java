@@ -85,3 +85,62 @@ class Solution {
         return partitions.get(0)[0];
     }
 }
+
+// Follow-up: Can you solve the problem in O(1) extra memory space?
+
+/**
+ * Definition for singly-linked list.
+ * public class ListNode {
+ * int val;
+ * ListNode next;
+ * ListNode() {}
+ * ListNode(int val) { this.val = val; }
+ * ListNode(int val, ListNode next) { this.val = val; this.next = next; }
+ * }
+ */
+class Solution {
+    public ListNode reverseKGroup(ListNode head, int k) {
+
+        ListNode curr = head;
+        int ll_length = 0;
+
+        // count the length of the linked list
+        while (curr != null) {
+            ll_length += 1;
+            curr = curr.next;
+        }
+
+        // no. of groups = ll_length / k
+        int no_of_groups = ll_length / k;
+
+        curr = head;
+        ListNode prev = null;
+        ListNode next = curr.next;
+        ListNode start;
+        for (int itr = 1; itr <= no_of_groups; itr++) {
+            start = curr;
+
+            for (int i = 0; i < k; i++) {
+                curr.next = prev;
+                prev = curr;
+                curr = next;
+                if (curr != null)
+                    next = curr.next;
+            }
+            if (itr == 1)
+                head = prev;
+
+            ListNode end = curr;
+            for (int i = 1; i < k; i++) {
+                if (end != null)
+                    end = end.next;
+            }
+            if (end == null) {
+                start.next = curr;
+            } else {
+                start.next = end;
+            }
+        }
+        return head;
+    }
+}
